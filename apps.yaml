@@ -1,0 +1,67 @@
+wordpress:
+    name: WordPress
+    description:  >
+        A state-of-the-art publishing platform with a focus on aesthetics, web standards, and usability.
+    zip_subdir: wordpress
+    installer_location: wp-admin/setup-config.php
+    download: http://wordpress.org/latest.zip
+    
+chyrp:
+    name: Chyrp
+    description: >
+        A blogging engine designed to be very lightweight while retaining functionality.
+        It is powered by PHP and has very powerful theme and extension engines, so you can personalize it however you want. 
+    zip_subdir: chyrp_v2.0
+    installer_location: install.php
+    download: http://chyrp.net/releases/chyrp_v2.0.zip
+    
+drupal:
+    name: Drupal
+    description: Equipped with a powerful blend of features, Drupal supports a variety of websites ranging from personal weblogs to large community-driven websites.
+    zip_subdir: drupal
+    installer_location: install.php
+    download: http://dl.dropbox.com/u/246097/drupal.zip
+    
+bbpress:
+    name: bbPress
+    description: >
+        Forum software with a twist from the creators of WordPress.
+        bbPress is focused on web standards, ease of use, ease of integration, and speed, and has an extensive plugin system.
+    zip_subdir: bbpress
+    installer_location: bb-admin/install.php
+    download: http://bbpress.org/latest.zip
+    
+vanilla:
+    name: Vanilla
+    description: Vanilla is an open-source, standards-compliant, multi-lingual, theme-able, pluggable discussion forum for the web.
+    zip_subdir: vanilla-1.1.10
+    installer_location: setup/installer.php
+    download: http://vanillaforums.org/uploads/4IAUJPV5PVRW.zip
+    
+phpbb:
+    name: phpBB
+    description: Since its creation in 2000, phpBB has become the most widely used Open Source forum solution. phpBB has an easy to use administration panel and a user friendly installation process, which allows you to have a forum set up in minutes.
+    zip_subdir: phpBB3
+    installer_location: install/index.php
+    download: http://d10xg45o6p6dbl.cloudfront.net/projects/p/phpbb/phpBB-3.0.7-PL1.zip
+    
+joomla:
+    name: Joomla
+    description: Joomla is an award-winning content management system (CMS), which enables you to build Web 		sites and powerful online applications.
+    zip_subdir: ''
+    installer_location: installation/index.php
+    download: http://joomlacode.org/gf/download/frsrelease/11396/45610/Joomla_1.5.15-Stable-Full_Package.zip
+    
+prestashop:
+    name: PrestaShop
+    description: PrestaShop is a free, open source e-commerce solution. PrestaShop guides users through your product catalog intelligently and effortlessly, turning intrigued visitors into paying customers.
+    zip_subdir: prestashop
+    installer_location: install/
+    download: http://www.prestashop.com/download/prestashop_1.2.5.0.zip
+    
+symphony:
+    name: Symphony
+    description: Symphony is a web-based content management system (CMS) that enables users to create and manage websites and web applications of all shapes and sizes-from the simplest of blogs to bustling news sites and feature-packed social networks. With Symphony, you can build just about anything, and that's what sets it apart from most other CMSs.
+    zip_subdir: symphony-2.0.7
+    installer_location: install.php
+    download: http://downloads.symphony-cms.com/global-asset-download/symphony-package/36030/symphony-2.0.7.zip
