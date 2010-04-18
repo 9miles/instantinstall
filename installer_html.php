@@ -2,7 +2,7 @@
 /* InstantIntall
  * An easier way to install web applications.
  * Version 0.1.0
- */  
+ */
 
 /*
 	The frontend of InstantInstall client-side.
@@ -11,20 +11,19 @@
 $app = $_GET['app'];
 
 if(isset($app) and array_key_exists($app, $APPDATA)){
-	
-	# Download and extract.
+
 	$result = download_and_extract_zip($app, $APPDATA[$app]);
-	
-	# Throw an error if something goes wrong.
+
+	# Let the user know if there's been an error.
 	if($result !== true){
 		echo "Error: $result";
 	}
-	
+
 	# Otherwise, redirect.
 	else{
 		config_and_redirect($app, $APPDATA[$app]);
 	}
-	
+
 }
 
 else{
@@ -32,8 +31,6 @@ ob_end_clean();
 # Display a nice app selection page.
 ?>
 
-<!-- If you're reading this, you need to go outside. -->
-<?php # And if you're reading this, you probably don't know what "outside" means and are wondering what the web address is. ?>
 <!DOCTYPE html>
 <html>
 <head>
